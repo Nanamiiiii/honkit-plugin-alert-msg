@@ -24,7 +24,14 @@ let alertBlock = (type, props, style, body) => {
 }
 
 module.exports = {
-    book: {
+    website: {
+        assets: "./assets",
+        css: [
+            "style.css"
+        ]
+    },
+
+    ebook: {
         assets: "./assets",
         css: [
             "style.css"
